@@ -1,0 +1,11 @@
+# Ignorar binarios y bases de datos
+*.exe
+*.db
+bin/
+data/
+*.obj
+*.o
+
+# Ignorar documentación generada, pero mantener la configuración
+docs/html/
+docs/latex/
