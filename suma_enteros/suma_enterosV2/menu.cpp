@@ -9,11 +9,10 @@
 #include "menu.hpp"
 #include "suma.hpp"
 #include <iostream>
-using namespace std;
 
 void menu(){
     unsigned long long n;
-    cout << "Ingrese un número entero: ";
-    cin >> n;
-    cout << "La suma de los primeros " << n << " enteros positivos es: " << suma(n) << endl;
+    std::cout << "Ingrese un número entero: ";
+    std::cin >> n;
+    std::cout << "La suma de los primeros " << n << " enteros positivos es: " << suma(n) << std::endl;
 }
